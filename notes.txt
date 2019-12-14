@@ -1,0 +1,17 @@
+Advanced OOP Final Project
+-------------------------
+
+- The main goal of the project was to implement the Senterej Chess version in C++14.
+
+- The repository contains the following:
+	- Regular chess prototyped in Java (with the ability to check move validity for any piece, without castling and en passant)
+	- C++14 version of the original prototype (Note: C++ code is partially taken from an external source, mainly for the sake of console input/parser design)
+
+- The Java code is written from scratch and is based on polymorphic design (abstract class Piece, and concrete classes King, Rook, Bishop, Queen and Pawn, inheriting from Piece)
+- The move checking functionality is implemented as simple as possible: by checking absolute differences of the moves in X and Y direction, then the board edges and then whether the cell is available and/or the opponent piece can be captured
+
+- As mentioned above, the skeleton of the C++ code is taken from external sources
+- Additions to the C++ code include:
+	- Addition of Senterej stage (opponents playing asynchroniously, move checking as the moves arrive, special rules such as no castling or en passant)
+	- Addition of C++14 functionality such as shared pointers and etc.
+	- Polymorphic design
