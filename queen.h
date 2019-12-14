@@ -1,9 +1,5 @@
 #pragma once
-#ifndef QUEEN_H
-#define QUEEN_H
-
 #include "piece.h"
-
 #include <set>
 #include <memory>
 
@@ -24,5 +20,3 @@ private:
 
 	void generatePossibleMoves(int);
 };
-
-#endif

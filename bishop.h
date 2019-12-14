@@ -1,13 +1,15 @@
 #pragma once
+#ifndef BISHOP_H
+#define BISHOP_H
 
 #include "piece.h"
 
 #include <set>
 #include <memory>
 
-class Rook : public Piece {
+class Bishop : public Piece {
 public:
-	Rook(int location, bool c);
+	Bishop(int location, bool c);
 	int getCurrentLocation();
 	bool getColor();
 	PieceType getType();
@@ -22,3 +24,5 @@ private:
 
 	void generatePossibleMoves(int);
 };
+
+#endif

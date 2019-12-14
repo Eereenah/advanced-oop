@@ -1,7 +1,4 @@
 #pragma once
-#ifndef COMMAND_H
-#define COMMAND_H
-
 #include "piece.h"
 #include "string"
 
@@ -23,4 +20,3 @@ struct Command {
 	int dest;
 	std::string raw;
 };
-#endif

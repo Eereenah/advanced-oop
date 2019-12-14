@@ -1,7 +1,4 @@
 #pragma once
-#ifndef PAWN_H
-#define PAWN_H
-
 #include "piece.h"
 
 #include <set>
@@ -25,5 +22,3 @@ private:
 
 	void generatePossibleMoves(int);
 };
-
-#endif
